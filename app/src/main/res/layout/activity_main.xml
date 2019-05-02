@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="loading"
+            type="Boolean"/>
+    </data>
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".activity.student.ExamResultActivity">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/app_bar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!--<include
+                    android:id="@+id/toolbar"
+                    layout="@layout/header_toolbar_layout"/>-->
+
+                <android.support.design.widget.TabLayout
+                    android:layout_below="@+id/toolbar"
+                    android:id="@+id/tab_layout_exam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/dimens_30dp"
+                    app:tabGravity="fill"
+                    app:tabMode="scrollable"
+                    app:tabIndicatorColor="@color/white"
+                    app:tabIndicatorHeight="@dimen/dimens_3dp"
+                    app:tabTextColor="@color/white_opc_70"
+                    app:tabSelectedTextColor="@color/white"
+                    app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget">
+                </android.support.design.widget.TabLayout>
+            </android.support.design.widget.AppBarLayout>
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimens_7dp"
+                android:layout_marginLeft="@dimen/dimens_7dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="@{loading?View.VISIBLE:View.GONE}"/>
+    </RelativeLayout>
+
+
+</layout>

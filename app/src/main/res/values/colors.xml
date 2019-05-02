@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- basic colors -->
+    <color name="white_opt_95">#F2FFFFFF</color>
+    <color name="filter_yellow">#ffc760</color>
+    <color name="light_orange">#7cf7d6bb</color>
+    <color name="colorTest">#4433EE33</color>
+    <color name="colorTestWhite">#44FFFFFF</color>
+
+
+    <color name="purple">#7041BF</color>
+    <color name="theme_purple">#906afa</color>
+    <color name="theme_purple_opc_0">#0D906afa</color>
+    <color name="ocean_blue">#1183c1</color>
+    <color name="sky_blue">#539be6</color>
+    <color name="dark_firozi">#014469</color>
+
+    <color name="purple_opc_50">#407041BF</color>
+    <color name="light_blue">#3d5afe</color>
+    <color name="blue1">#4584ed</color>
+    <color name="blue2">#2e43bc</color>
+    <color name="blue3">#402bb2</color>
+    <color name="light_maroon">#ac316e</color>
+    <color name="dark_blue">#1f2d7f</color>
+    <color name="light_brinjal">#b14ac3</color>
+    <color name="dark_brinjal">#5e2867</color>
+    <color name="dark_pink">#80173a</color>
+    <color name="dark_green">#006053</color>
+    <color name="dark_yellow">#834722</color>
+
+    <color name="sky_opc_30">#4D0C77B0</color>
+
+    <!-- demo colors (for card-background) -->
+
+    <!-- gray-->
+    <color name="gray_1">#DCDCDC</color>
+
+
+    <color name="gray">#a6a6a6</color>
+    <color name="green">#32bea6</color>
+    <color name="white">#FFFFFF</color>
+    <item name="purple_1" type="color">#FFAA66CC</item>
+
+    <color name="caldroid_white">#FFFFFF</color>
+    <color name="place_holder_white">#e4e4e4</color>
+    <color name="caldroid_black">#DE000000</color>
+    <color name="black">#000000</color>
+    <color name="black_opc_30">#4D000000</color>
+    <color name="green_opc_900">#004d40</color>
+    <color name="blue_grey_opc_900">#263238</color>
+    <color name="red_opc_100">#ffcdd2</color>
+
+    <color name="off_white">#aaaaaa</color>
+    <color name="white_opc_70">#B3ffffff</color>
+
+    <color name="black_grey">#ff1f1f1f</color>
+
+
+    <!-- <color name="main_background">#f3f3f3</color>
+     <color name="boarder_colour">#00bff3</color>-->
+
+
+    <color name="boarder_colour">#46C38B</color>
+    <color name="header_bg_color">#f5f5f5</color>
+</resources>
